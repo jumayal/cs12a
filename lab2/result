@@ -1,0 +1,22 @@
+/afs/cats.ucsc.edu/users/h/jumaayal/cs12a/lab2
+
+Access list for public is
+Normal rights:
+  system:operator rlidwk
+  system:authuser rlid
+  system:anyuser rl
+  jumaayal rlidwka
+
+Access list for private is
+Normal rights:
+  system:anyuser l
+  jumaayal rlidwka
+
+total 7
+-rw-r--r--. 1 jumaayal users  430 Jan 18 22:53 HelloWorld.class
+drwxr-xr-x. 2 jumaayal users 2048 Jan 18 18:15 private
+-rwx------. 1 jumaayal users  193 Jan 18 22:48 prog
+drwxr-xr-x. 2 jumaayal users 2048 Jan 18 18:15 public
+-rwx------. 1 jumaayal users  258 Jan 18 22:58 result
+
+Hello, lab2!

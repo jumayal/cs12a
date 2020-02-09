@@ -1,0 +1,14 @@
+#RunLawn
+#Juan Ayala
+#jumayala
+#lab3
+#Runs Lawn.class with pre-determined inputs
+
+#! /bin/bash
+echo "compiling Lawn.java" > stdout
+javac Lawn.java >& Lawn-errs
+echo "running Lawn.class" >> stdout
+java Lawn < Lawn-in > Lawn-out
+echo "deleting Lawn.class" >> stdout
+rm Lawn.class 
+more stdout
